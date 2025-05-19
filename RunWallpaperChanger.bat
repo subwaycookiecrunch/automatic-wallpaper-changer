@@ -1,0 +1,3 @@
+@echo off
+echo Starting Wallpaper Changer...
+powershell -ExecutionPolicy Bypass -WindowStyle Hidden -File "%~dp0WallpaperChanger.ps1" 

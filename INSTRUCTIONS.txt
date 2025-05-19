@@ -1,0 +1,36 @@
+===== WALLPAPER CHANGER - ONE-CLICK SETUP =====
+
+Three simple ways to make Wallpaper Changer a one-click application:
+
+OPTION 1: DESKTOP SHORTCUT (Recommended)
+1. Right-click on "CreateDesktopShortcut.ps1" and select "Run with PowerShell"
+2. A shortcut will be created on your desktop
+3. Double-click the shortcut anytime to run the app
+
+OPTION 2: AUTOSTART WITH WINDOWS
+1. Right-click on "AddToStartup.ps1" and select "Run with PowerShell"
+2. The app will now start automatically every time you log in to Windows
+
+OPTION 3: DIRECT LAUNCH
+1. Double-click "RunWallpaperChanger.bat" to run the app directly
+
+===== FIRST TIME SETUP =====
+
+The first time you run the app:
+1. You may see a blue PowerShell window briefly - this is normal
+2. The app will start minimized in your system tray (bottom-right corner of screen)
+3. Click the tray icon to open the main window
+4. Use "Select Images Folder" to choose your wallpaper images folder
+5. Click "Start" to begin the wallpaper rotation
+
+===== NOTES =====
+
+- The app changes wallpaper every 30 seconds
+- The app runs in the system tray to stay out of your way
+- To exit completely, right-click the tray icon and select "Exit"
+
+===== TROUBLESHOOTING =====
+
+If you encounter "PowerShell execution policy" errors:
+1. Right-click "RunWallpaperChanger.bat" and select "Run as administrator" the first time
+2. Or run this command in an administrator PowerShell: Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser 
